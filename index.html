@@ -12,13 +12,12 @@
     <!--===== REMIX ICON ======--> 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
 
-    <!--===== SWIPER JS ======-->
-    <link rel="stylesheet" href="">
+    <!--===== SWIPER css ======-->
+    <link rel="stylesheet" href="./accets/css/swiper-bundle.min.css">
 
     <!--===== CSS ======-->
-    <link rel="stylesheet" href="./accets/style.css" />
-    <link rel="stylesheet" href="./accets/fontsawesome uesr/css/all.css">
-
+    <link rel="stylesheet" href="accets/css/style.css" />
+  
        
     <title>Document</title>
  </head>
@@ -268,6 +267,16 @@
                   <img src="./accets/images/hhhhh.jpg"width="240px"   alt="skills image">
                 </div>
 
+                <h3 class="skills__name">Canvas</h3>
+                <span class="skills__subtitle">
+                  Advance
+                </span>
+              </div>
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./accets/images/hhhhh.jpg"width="240px" alt="skills image">
+                </div>
+
                 <h3 class="skills__name">Figma</h3>
                 <span class="skills__subtitle">
                   Advance
@@ -442,10 +451,10 @@
        <h2 class="section__title">projects</h2>
        <span class="section__subtitle">Most recent work</span>
        <div class="container section__border">
-        <div class="projects__container">
-          <div>
+        <div class="projects__container swiper">
+          <div class="swiper-wrapper">
         <!--===== Project 1 ======-->
-        <div class="projects__content">
+        <div class="projects__content swiper-slide">
           <img src="./accets/images/favicon.png" width="140px" alt="projects img">
           <div>
             <span class="projects__subtitle">Web</span>
@@ -457,7 +466,7 @@
           </div>
         </div>
         <!--===== Project 2 ======-->
-        <div class="projects__content">
+        <div class="projects__content swiper-slide">
           <img src="./accets/images/favicon.png" width="140px" alt="projects img">
           <div>
             <span class="projects__subtitle">Web</span>
@@ -469,7 +478,7 @@
           </div>
         </div>
         <!--===== Project 3 ======-->
-        <div class="projects__content">
+        <div class="projects__content swiper-slide" >
           <img src="./accets/images/favicon.png" width="140px" alt="projects img">
           <div>
             <span class="projects__subtitle">Design</span>
@@ -481,7 +490,7 @@
           </div>
         </div>
         <!--===== Project 4 ======-->
-        <div class="projects__content">
+        <div class="projects__content swiper-slide">
           <img src="./accets/images/ayomide.jpg" width="140px">
           <div>
             <span class="projects__subtitle">Animation</span>
@@ -492,7 +501,21 @@
             </a>
           </div>
         </div>
-          </div>
+      </div>
+
+        <!--===== Swiper Arrows ======-->
+      <div class="swiper-button-next">
+        <i class="ri-arrow-right-circle-line"></i>
+      </div>
+    <div class="swiper-button-prev">
+      <i class="ri-arrow-left-fill"></i>
+    </div>
+
+        <!--===== Swiper pagination ======-->
+    <div class="swiper-pagination"></div>
+
+
+
         </div>
        </div>
       </section>
@@ -501,10 +524,126 @@
 
 
         <!--===== Testimonial ======-->
-        <section class="testimonial section" id="testimonial">
-        
-        </section>
+         <section class="testimonial section">
+          <h2 class="section__title">Testimonial</h2>
+          <span class="section__subtitle">My Client Saying</span>
+          <div class="container section__border">
+            <div class="testimonial__container swiper">
+              <div class="swiper-wrapper">
+                 <!--===== Testimonial 1 ======-->
+                <div class="testimonial__content swiper-slide" >
+    <p class="testimonial__description">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quia labore vitae quas dignissimos fuga maiores quos sint asperiores soluta, officia, vero repellat ut quo nulla magni aspernatur nostrum tenetur.
+                   </p>
+                   <div>
+                    <h3 class="testimonial__name">Morounfoluwa Melchizedek</h3>
+                    <span class="testimonial__subtitle">Client</span>
+                   </div>
+                 </div>
+                 <!--===== Testimonial 2 ======-->
+               <div class="testimonial__content swiper-slide">
+    <p class="testimonial__description">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quia labore vitae quas dignissimos fuga maiores quos sint asperiores soluta, officia, vero repellat ut quo nulla magni aspernatur nostrum tenetur.
+                   </p>
+                   <div>
+                    <h3 class="testimonial__name">Mofeolouwa Melchizedek</h3>
+                    <span class="testimonial__subtitle">Client</span>
+                   </div>
+                 </div>
+                 <!--===== Testimonial 3 ======-->
+               <div class="testimonial__content swiper-slide">
+    <p class="testimonial__description">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quia labore vitae quas dignissimos fuga maiores quos sint asperiores soluta, officia, vero repellat ut quo nulla magni aspernatur nostrum tenetur.
+                   </p>
+                   <div>
+                    <h3 class="testimonial__name">Morireoluwa Melchizedek</h3>
+                    <span class="testimonial__subtitle">Client</span>
+                   </div>
+                 </div>
+
+                 <!--===== Testimonial 4 ======-->
+               <div class="testimonial__content swiper-slide">
+                <p class="testimonial__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quia labore vitae quas dignissimos fuga maiores quos sint asperiores soluta, officia, vero repellat ut quo nulla magni aspernatur nostrum tenetur.
+                               </p>
+                               <div>
+                                <h3 class="testimonial__name">Morayo Melchizedek</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                               </div>
+                             </div>
+              </div>
+              <!--swiper Arrows-->
+              <div class="swiper-button-next">
+                <i class="ri-arrow-right-circle-line"></i>
+
+              </div>
+              <div class="swiper-button-prev">
+                <i class="ri-arrow-left-fill"></i>
+
+              </div>
+            </div>
+          </div>
+          <img src="./accets/images/hhhhh.jpg" alt="" class="testimonial__img">
+         </section>
         <!--===== Contact ======-->
+        <section class="contact section" id="contact">
+          <h2 class="section__title">Contact Me</h2>
+          <span class="section__subtitle">Get In Touch</span>
+           <div class="contact__container container grid section__border">
+          <div class="contact__content">
+            <h3 class="contact__title">
+              <i class="ri-home-office-fill"></i> Talk to me
+            </h3>
+            <div class="contact__info">
+              <div class="contact__data">
+                <span class="contact__data-title">E-mail</span>
+                <span class="contact__data-info">adebowalemel83@gmail.com</span>
+              </div>
+              <div class="contact__data">
+                <span class="contact__data-title">Whatssap</span>
+                <span class="contact__data-info">+234 8038313451</span>
+                <a href="https://api.whatssap.com/send?phone=2348145828006=Hello,more information!" target="_blank" class="contact__button">Write Me <i class="ri-home-office-fill"></i> </a>
+              </div>
+              <div class="contact__data">
+                <span class="contact__data-title">Messenger</span>
+                <span class="contact__data-info">@chris.fb123</span>
+                <a href="https://m.me/oluwamayowa" target="_blank" class="contact__button">Write Me <i class="ri-home-office-fill"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="contact__content">
+            <h3 class="contact__title">
+         <i class="ri-arrow-right-circle-line"></i> Write me your project.
+            </h3>
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__form-div">
+                <label class="contact__form-tag">Names</label>
+                <input type="text" name="user_name" required placeholder="Write your names" class="contact__form-input" id="contact-name">
+              </div>
+              <div class="contact__form-div">
+                <label class="contact__form-tag">Mail</label>
+                <input type="email" name="user_email" required placeholder="Write your email" class="contact__form-input" id="contact-email">
+              </div>
+              <div class="contact__form-div contact__form-area">
+                <label class="contact__form-tag">Project</label>
+                 <textarea name="user_project" placeholder="Write your project" id="contact-project" class="contact__form-input"></textarea>
+              </div>
+
+              <p class="contact__message" id="contact-message">
+                
+              </p>
+
+
+
+
+              <button type="submit" class="contact__button">
+                Submit <i class="ri-arrow-left-fill"></i>
+
+              </button>
+            </form>
+          </div>
+          </div>
+        </section>
 
 
       </main>
@@ -520,12 +659,13 @@
         <script src=""></script>
 
         <!--===== SWIPER JS ======-->
-        <Script src=""></Script>
+        <Script src="accets/js/swiper-bundle.min.js"></Script>
 
         <!--===== E-mail js ======-->
+        <script type="text/Javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
         <!--===== Main js ======-->
-        <script src="./accets/main.js"></script>
+        <script src="./accets/js/main.js"></script>
 
   <body>
 
