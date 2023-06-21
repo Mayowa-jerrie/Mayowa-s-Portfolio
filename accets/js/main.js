@@ -64,33 +64,14 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
 
 
 /*========= Email  js===========*/
-const contactForm = document.getElementById("contact-form"),
-      contactName = document.getElementById("contact-name"),
-      contactEmail = document.getElementById("contact-email"),
-      contactProject = document.getElementById("contact-project"),
-      contactMessage = document.getElementById("contact-message");
-
-      const sendEmail = (e) =>{
-         e.preventDefault()
-         //value checker by Mayor....
-         if( contactName.value === '' || contactEmail.value === '' || contactProject.value === ''){
-           //add and remove color
-           contactMessage.contactList.remove("color-blue")
-           contactMessage.contactList.add("color-red")
-
-           // show message
-        contactMessage.textContent = 'Write all the input fields 📩'
-         }else{
-            //ServiceID - templateID- #form 
-            emailjs.sendform('','','','')
-         }
-      } 
-      contactForm.addEventListener("submit", sendEmail)
-
+ 
+     /** scroll section active**/
+      
 
 
 
 /*========= scroll section active link===========*/
+
 
 
 
